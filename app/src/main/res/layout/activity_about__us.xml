@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_Us">
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_page"
+        android:layout_width="match_parent"
+        android:layout_above="@id/dotlayout"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dotlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="300dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALL US"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91-63873-25465"
+            android:textColor="#40ac6e"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="FOLLOW US"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/circlefb"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/insta"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/twitter"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="#40ac6e"
+            android:text="www.justeat.com"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home_frst"
+        android:icon="@drawable/home_icon"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search_icon"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/shopping"
+        android:icon="@drawable/shopping_cart_icon"
+        android:title="Shopping_card"/>
+
+    <item
+        android:id="@+id/star"
+        android:icon="@drawable/star_icon"
+        android:title="Star"/>
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting_icon"
+        android:title="Setting"/>
+
+
+
+</menu>

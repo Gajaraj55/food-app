@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".OTP">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:layout_marginTop="20dp"
+        android:text="Verification Code"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please, enter the verification code send to"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textIsSelectable="false"
+        android:textSize="20sp">
+
+    </com.alimuzaffar.lib.pin.PinEntryEditText>
+
+    <Button
+        android:id="@+id/otbsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/createbtn"
+        android:text="SUBMIT CODE"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

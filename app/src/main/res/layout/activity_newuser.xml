@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Newuser">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/createid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/createbtn"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="#85807f" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_marginLeft="20dp"/>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="#85807f"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/fb"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/facebookbtn"
+        android:text="FACEBOOK"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/googleicon"
+        android:background="@drawable/googlebtn"
+        android:text="GOOGLE"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="By registering,you accepts our" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/termand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Term _condition"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:text="and"/>
+
+
+        <TextView
+            android:id="@+id/policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Privacy Policy."
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>
